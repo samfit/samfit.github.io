@@ -2,7 +2,7 @@
 var instagramDataArray;
 var instagramImgDataArray = [];
 $(document).ready(function(){
-	$.get("instagram.json", function(data){
+	$.get("https://www.instagram.com/alhn.gzl/media", function(data){
 
 		instagramDataArray = data.items.slice(0,16);
 		$.each(instagramDataArray, function(index, value){
