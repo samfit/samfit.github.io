@@ -2,12 +2,9 @@
 var instagramDataArray;
 var instagramImgDataArray = [];
 $(document).ready(function(){
-	$.get("https://www.instagram.com/alhn.gzl/media", function(data){
+	$.get("text/gallery/gallery.txt", function(data){
 
-		instagramDataArray = data.items.slice(0,16);
-		$.each(instagramDataArray, function(index, value){
-			instagramImgDataArray.push(value.images.standard_resolution.url);
-		});
+		instagramImgDataArray= ["a", "b", "c", "d", "e", "f", "g", "h", "ı", "i", "j", "k", "l", "u", "q"];
 
 		var instagramImgDataHtml = "";
 		for(var i=0; i < 16; i++){
