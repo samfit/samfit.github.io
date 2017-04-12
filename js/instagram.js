@@ -3,7 +3,7 @@ $(document).ready(function(){
 	$.get("text/gallery/gallery.txt", function(data){
 
 		$.each(data.split("\n"), function(index, value){
-			instagramImgDataArray.push(value.replace("-",""))
+			instagramImgDataArray.push(value);
 		})
 		
 		var instagramImgDataHtml = "";
