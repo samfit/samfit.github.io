@@ -261,6 +261,8 @@ html, body {
 
 .homePage .globalArea .galleryPage .content .container #slider-thumbs img {
 	cursor: pointer;
+        width: 80px;
+        height: 40px;
 }
 
 .homePage .globalArea .galleryPage .content .container #sliderScreen {
