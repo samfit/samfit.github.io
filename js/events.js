@@ -29,10 +29,10 @@ $(document).ready(function(){
 /************************************/
 
 function BiggerGallerySlide(target){
-	$(target).css({"position":"fixed", "z-index":"99", "width":"660px", "top":"70px", "left":"50%", "margin-left":"-330px"});
+	$(target).css({"position":"fixed", "z-index":"99",height:"100%", "width":"100%", "top":"70px", "left":"50%", "margin-left":"-50%"});
 }
 function SmallerGallerySlide(target){
-	$(target).css({"position":"", "top":"", "left":"", "margin-left":"", "width":""});
+	$(target).css({"position":"", "top":"", "left":"", "margin-left":"", "width":"", height:""});
 }
 /************************************/
 
