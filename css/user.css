@@ -272,11 +272,11 @@ html, body {
 }
 .homePage .globalArea .galleryPage .content .container #sliderScreen .item{
         width: 100%;
-        heigth: 100%;
+        height: 100%;
 }
 .homePage .globalArea .galleryPage .content .container #sliderScreen .item img{
         width: 100%;
-        heigth: 100%;
+        height: 100%;
 }
 .homePage .globalArea .contactPage {
 	color: #fff;
