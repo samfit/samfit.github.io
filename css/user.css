@@ -272,7 +272,12 @@ html, body {
         width: 350px;
         height: 290px;
 }
-.homePage .globalArea .galleryPage .content .container #sliderScreen .item{
+.homePage .globalArea .galleryPage .content .container #sliderScreen {
+	cursor: pointer;
+        width: 350px;
+        height: 290px;
+}
+.homePage .globalArea .galleryPage .content .container #sliderScreen .carousel-inner{
         width: 100%;
         height: 100%;
 }
