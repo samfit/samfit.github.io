@@ -156,7 +156,7 @@ html, body {
 
 .homePage .globalArea .more .items .item {
 	width: 160px;
-	height: 160px;
+	height: 100%;
 	border-radius: 50%;
 	float: left;
 	margin: 0px 35px 0px 35px;
@@ -272,10 +272,8 @@ html, body {
         width: 350px;
         height: 290px;
 }
-.homePage .globalArea .galleryPage .content .container #sliderScreen {
-	cursor: pointer;
-        width: 350px;
-        height: 290px;
+.homePage .globalArea .galleryPage .content .container #sliderScreen .item{
+	height: 100%;
 }
 .homePage .globalArea .galleryPage .content .container #sliderScreen .carousel-inner{
         width: 100%;
