@@ -48,8 +48,8 @@ function insertMapsArray(mapsArray){
 
 function insertTeacherArray(teacherArray){
 	var teacherHtmlString = "";
-	for(var i=0; i < teacherArray.length; i+=2){
-		teacherHtmlString += '<div class="panel panel-default"><div class="panel-heading" role="tab" id="teacher'+i+'"><h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion3" href="#teacherc'+i+'" aria-expanded="true" aria-controls="teacherc'+i+'">'+teacherArray[i].replace("T:", "")+'</a></h4></div><div id="teacherc'+i+'" class="panel-collapse collapse" role="tabpanel" aria-labelledby="teacher'+i+'"><div class="panel-body">'+teacherArray[i+1].replace("A:", "")+'</div></div></div>';
+	for(var i=0; i < teacherArray.length; i+=3){
+		teacherHtmlString += '<div class="panel panel-default"><div class="panel-heading" role="tab" id="teacher'+i+'"><h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion3" href="#teacherc'+i+'" aria-expanded="true" aria-controls="teacherc'+i+'">'+teacherArray[i].replace("T:", "")+'</a></h4></div><div id="teacherc'+i+'" class="panel-collapse collapse" role="tabpanel" aria-labelledby="teacher'+i+'"><div class="panel-body"><img src="'+teacherArray[i+2].replace("I:","")+'" /><p>'+teacherArray[i+1].replace("A:", "")+'</p></div></div></div>';
 	}
 	$(".homePage .globalArea .more .itemContents .itemContent#teacher #accordion3").html(teacherHtmlString);
 }
