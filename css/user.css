@@ -267,6 +267,8 @@ html, body {
 
 .homePage .globalArea .galleryPage .content .container #sliderScreen {
 	cursor: pointer;
+        width: 350px;
+        height: 290px;
 }
 
 .homePage .globalArea .contactPage {
