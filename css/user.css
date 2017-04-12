@@ -197,6 +197,14 @@ html, body {
 	color: #ff0000;
 	display: none;
 }
+.homePage .globalArea .more .itemContents .itemContent .panel-body img{
+	width: 200px;
+	float: left;
+	margin-right: 15px;
+}
+.homePage .globalArea .more .itemContents .itemContent .panel-body p{
+	margin-left: 10px;
+}
 
 .homePage .globalArea .more .itemContents .itemContent h3 {
 	color: #fff;
