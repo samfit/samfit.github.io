@@ -1,13 +1,10 @@
 var instagramImgDataArray = [];
-var instagramImgDataArray2 = [];
 $(document).ready(function(){
 	$.get("text/gallery/gallery.txt", function(data){
 
-		instagramImgDataArray= ["a", "b", "c", "d", "e", "f", "g", "h", "ı", "i", "j", "k", "l", "u", "q"];
 		$.each(data.split("\n"), function(index, value){
-			instagramImgDataArray2.push(value.replace("-",""))
+			instagramImgDataArray.push(value.replace("-",""))
 		})
-		console.log(instagramImgDataArray2);
 		
 		var instagramImgDataHtml = "";
 		for(var i=0; i < 16; i++){
