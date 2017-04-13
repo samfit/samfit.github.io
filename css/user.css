@@ -280,8 +280,8 @@ html, body {
         width: 350px;
         height: 290px;
 }
-.homePage .globalArea .galleryPage .content .container #sliderScreen .item{
-	height: 100%;
+.homePage .globalArea .galleryPage .content .container #sliderScreen *{
+        height: 100%;
 }
 .homePage .globalArea .galleryPage .content .container #sliderScreen .carousel-inner{
         width: 100%;
