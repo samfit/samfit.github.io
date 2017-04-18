@@ -2,7 +2,7 @@ T:Açık Adres
 A:Mimar Sinan Mahallesi Namık Kemal Caddesi 536. Sokak No:4 Atakum / Samsun
 
 T:Harita Gösterimi
-A:<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1853.3605964968708!2d36.279986796346954!3d41.32985522304753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1str!2str!4v1491459203976" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+A:<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d749.0083392948565!2d36.27953246442238!3d41.32988800188006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDE5JzQ3LjYiTiAzNsKwMTYnNDguMyJF!5e0!3m2!1str!2str!4v1492498331603" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 T:Mekan Gösterimi
 A:<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1str!2str!4v1491297267755!6m8!1m7!1soHqIxQDpoAKBQeMLDyhO4g!2m2!1d41.33000454188983!2d36.27978514676175!3f145.0210805296368!4f-10.248602894883774!5f0.7820865974627469" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
