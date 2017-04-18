@@ -5,7 +5,7 @@ T:Hangi Günler Çalışma Yapabileceğim
 A:Haftanın her günü hizmetinize açığız. Elimizde olmayan sebeplerden ötürü açık olmadığımız zaman size bildirim yapıyoruz.
 
 T:Günlük, Haftalık, Aylık veya Yıllık Belirli Bir Çalışma Saat Sınırı Var Mı
-A:Kesinlikle yok. Günlük, haftalık, aylık veya yıllık istediğiniz kadar çalıþabilirsiniz.
+A:Kesinlikle yok. Günlük, haftalık, aylık veya yıllık istediğiniz kadar çalışabilirsiniz.
 
 T:Eğitim Takvminiz Nedir
 A:Bizi arayarak veya merkezimize gelerek size uygun eğitim takvimi belirleyebiliriz.
